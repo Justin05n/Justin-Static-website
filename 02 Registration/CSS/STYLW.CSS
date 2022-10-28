@@ -1,0 +1,510 @@
+
+.background{
+    background-image: url("../images/dec.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    /* width: 261px; */
+    /* height: 603px; */
+    padding: 0px;
+    /* height: 700px; */
+}
+
+nav{
+  display: flex;
+  justify-content: end;
+  height: 80px;
+  width: 100%;
+  background-color: red;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  width: 90%;
+  justify-content: space-around;
+  padding: 10px;
+  
+}
+
+a:hover {/*background:rgb(255, 0, 0) ;*/ color: black; 
+}
+
+.active{background: gray; border-radius:5px;
+width: 100px;
+}
+
+li a{
+display: inline-block;
+color: white;
+text-align: center;
+padding: 10px;
+margin-right:3px ; 
+border-radius: 3px;
+text-decoration: none;
+
+}
+
+
+/* the problem too my nav so fix it */
+
+.give{
+margin-left:390px;
+position: absolute;
+padding-top:10px ;
+padding-left: 20px;
+height: 20px;
+width: 20px;
+}
+
+.shade{
+background-color: rgba(0, 0, 0, 0.74);
+ height:20px;
+ width:100%;
+ display: flex;
+}
+
+.profile-pic-div{
+  height: 400px;
+  width: 400px;
+  position: absolute;
+margin-left: 70px;
+margin-top: 40px ;
+
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid grey;
+}
+
+#photo{
+  height: 100%;
+  width: 100%;
+}
+
+#file{
+  display: none;
+}
+
+#uploadBtn{
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: wheat;
+  line-height: 30px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  display: none;
+}
+ .nav-links a:hover{
+  background-color: #ff000085;
+  width: auto;
+  height: auto;
+padding: 5px;
+border-radius: px;
+border: 1px solid rgb(255, 255, 255);
+
+}
+
+.x{
+  margin-top: 500px;
+}
+
+.p{
+  margin-left: 200px;
+}
+
+  
+.pat{
+  padding-left: 300px;
+
+}
+
+.ss{
+    width: 300px;
+    height: 300px;
+}
+
+.bb{
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.center{
+    text-align: center;
+}
+
+label{
+  color: #f1f1f1;
+}
+
+/* .radio{
+  margin-top:100px;
+  background-color: aqua;
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+} */
+
+
+.form-one{
+    width: 830px;
+    height: 900px;
+    /* padding-left: 30px; */
+    background-color: rgb(0, 0,0,0.54 );
+    padding: 40px;
+    margin: 20px;
+    /* align-items: center; */
+}
+
+input{
+    width: 200px;
+    height: 40px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+.par{
+    background-color: rgb(175, 175, 174);
+    width: 97.5%;
+    height: 400px;
+    display: flex;
+    padding:20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-size: 30px;
+    /* flex-direction: row; */
+}
+
+.par2{
+    font-size: 30px;
+}
+
+.box{
+    width: 800px;
+    height: 700px;
+    background-color:rgba(0, 0,0, .4);
+    margin-left: 600px;
+    /* position: relative; */
+}
+         /* style form */
+
+         .registration-form{
+            background-color: rgba(255, 0, 0, 0.336);
+            border: 2px solid red;
+            width: 55%;
+            padding: 10px;
+            border-radius: 25px;
+          }
+
+          .lit{
+            padding-bottom: 10px;
+            padding-left: 300px;
+            color: #f1f1f1;
+          }
+          
+          .registration-form h1{
+            text-align: center;
+          }
+          
+          .personal-details h3{
+            margin-left: 25px;
+            margin-top: 30;
+            margin-bottom: 8px;
+            padding-bottom: 0;
+          
+          }
+
+          .collapsible {
+            background-color: rgb(44, 43, 43);
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            margin: 20px;
+            width: 800px;
+            border-radius: 20px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            margin-left:10px;
+          }
+          
+          .active, .collapsible:hover {
+            background-color: red;
+          }
+          
+          .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: black;
+          }
+
+          #uoload{
+            border-radius: 20px;
+          }
+          
+          .names{
+            display: flex;
+            justify-content: space-around;
+            margin: 10px;
+            padding: 10px;
+    
+            
+          }
+          .id-number{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 15px 27px;
+            
+          }
+          
+          .id-number input{
+            width: 98%;
+            padding: 7px;
+            border-radius: 25px;
+            border: 1px solid black;
+          }
+          
+          .id-number label{
+            display: inline-block;
+          }
+          
+          .date-of-birth-container{
+            padding: 0 13px;
+          }
+          
+          
+          .names input{
+            width: 360px;
+            height: 30px;
+            border-radius: 25px;
+            border: 1px solid black;
+            padding: 6px;
+          }
+        
+          
+          .date-of-birth{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 5px;
+          }
+          
+      
+          .date-of-birth select,
+          .city input{
+            width: 200px;
+            height: 25px;
+            border-radius: 25px;
+            border: 1px solid black;
+            padding: 7px;
+            
+          }
+          
+          .gender{
+            margin-top: 20px;
+          }
+          
+          .gender input{
+            height: 20px;
+            width: 20px;
+            margin-top: 5px;
+          }
+          
+          
+          .type{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 10px;
+            margin-bottom: 20px;
+          }
+          
+          .gender select{
+            border-radius: 25px;
+            border: 1px solid black;
+            padding: 7px;
+          }
+          
+          .blood-type{
+            margin-top: 5px;
+          }
+          
+          .blood-type select{
+            border-radius: 25px;
+            border: 1px solid black;
+            padding: 7px;
+            width: 550px;
+          }
+          
+          .street{
+            padding: 0 20px;
+          }
+          
+          .street input{
+            width: 96%;
+            border-radius: 25px;
+            border: 1px solid black;
+            padding: 10px;
+          }
+          
+          .city{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            
+          }
+          
+          .email{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+          }
+          
+          .email input{
+            border-radius: 25px;
+            border: 1px solid black;
+            padding: 7px;
+            width: 350px;
+            height: 25px;
+           
+          
+          }
+
+          .gmail{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+          }
+          
+          .gmail input{
+            border-radius: 25px;
+            border: 1px solid black;
+            width: 350px;
+            height: 40px;
+           
+          
+          }
+          
+          
+          .submit{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px ;
+          }
+          
+          .submit button{
+            padding: 5px 25px;
+            color: white;
+            background-color: rgba(169, 8, 8, 0.436);
+            font-weight: bold;
+            font-size: 20px;
+            border-radius:25px;
+            border: none;
+          
+          }
+
+           /* ends */
+
+    /* FOOTER */
+
+.box-5{
+    display: flex;
+    background-color:red;
+    /* margin-top: 120px; */
+    height: 280px;
+    width: 100%;
+    /* margin: 20px;
+    padding: 20px; */
+}
+
+.foot{
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    padding-left: 90px;
+}
+
+.org{
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    padding-left: 130px;
+}
+
+.con{
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    padding-left: 110px;
+}
+
+.sub{
+    margin-top: 30px;
+    color: white;
+    padding-left: 160px;
+}
+
+.subscribe {
+     
+    width: 258px;
+    height: 41px;
+    margin-top: 20px ;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.emails{
+    width: 250px;
+    height: 35px;
+}
+
+.condi{
+    color: rgb(7, 7, 103);
+    margin-left: 162px;
+    margin-top: -33px;
+}
+
+.ttt{
+    background-color: rgb(178, 4, 4);
+    height: 97px;
+    width:100%;
+}
+
+.Welcome{
+    display: flex;
+    background-color: cyan;
+}
+
+.just{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+

@@ -1,0 +1,352 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+body  {
+  background-image: url(../images/Rectangle\ 123.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* margin-top: 245px; */
+
+}
+#nav { 
+  display: flex;
+  justify-content: end;
+  height: 80px;
+  width: 100%;
+  background-color: red;
+
+}
+
+ul{list-style-type: none;
+   margin: 0; 
+   overflow: hidden;
+    /* background-color: #008000; */
+    display: flex;
+    list-style-type: none;
+    width: 90%;
+    justify-content: space-around;
+    padding: 10px;}
+
+li a{ display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   /* float: left; */
+   margin-right:3px ; 
+   border-radius: 3px;
+   text-decoration: none;
+  }
+
+
+a:hover {background:rgb(209, 202, 188) ; color: black;}
+
+.active{background: #030b09; border-radius:0;}
+
+.give{
+  padding-left:750px;
+  position: absolute;
+  padding-top:5px ;
+  height: 20px;
+  width: 20px;
+  
+  }
+
+.gav{
+    width: 200px;
+  }
+
+.shade{
+  background-color: rgba(0, 0, 0, 0.74);
+   height:20px;
+   width:100%;
+   display: flex;
+}
+
+.graph{
+  margin-left: 70px;
+  /* background-color: red; */
+  width: 1000px;
+  height: 600px;
+  color: #030b09;
+  margin: 50px;
+}
+
+.noo{
+  padding-left: 200px;
+  padding-top: 20px;
+  font-size: 40px;
+  margin: 60px;
+}
+
+
+
+.gra{
+  margin: 100px;
+}
+
+/* .graph{
+width:100%;
+width:200px;
+} */
+
+
+
+.location{
+  background-color: red;
+  margin-left: 40px;
+  margin: 70px;
+  width :400px;
+  height:300px;
+  margin-right: 100px;
+  
+}
+
+.god{
+  margin-top: 80px;
+  width :600px; 
+  height:340px;
+}
+
+.www{
+  background-color: rgb(214, 33, 33);
+  width: 510px;
+  border-radius:10px ;
+  padding-bottom: -20px;
+  margin-top: -70px;
+  /* margin-left: 90px; */
+  
+}
+
+.wwe{
+  width: fit-content;
+  background-color: rgb(214, 33, 33);
+  border-radius:10px ;
+  margin-top: 20px;
+}
+
+.wwc{
+  margin-top: -70px;
+  background-color: rgb(214, 33, 33);
+  border-radius:10px ;
+}
+
+
+.luv{
+  display: flex;
+  justify-content:space-around;
+  margin-right: 200px;
+}
+
+.mother{
+  display: flex;
+  justify-content:space-between ;
+}
+
+.map{
+  margin-left: 20px;
+  /* background-color: red; */
+  width: 700px;
+  /* margin-bottom: 800px; */
+  position: relative;
+}
+
+
+    .sideplace{
+      background-color: red;
+      display: flex;
+      flex-direction: column;
+      /* position: fixed; */
+      /* top: 145px;
+      bottom: 0px;
+      left: 0px; */
+      width: 379px;
+      height: 1000px;
+      margin: 0px;
+
+    
+    }
+
+    .das{
+      display: flex;
+      background-color:rgba(126, 113, 113, 0.707);
+      /* margin: 30px; */
+      width: 100%;
+    }
+
+    /* .shade{
+      background-color: rgba(0, 0, 0, 0.74);
+       height:65px;
+       width:100%;
+       display: flex;
+       position: fixed;
+    } */
+
+    .back{
+      display: flex;
+    }
+  /* content/ */
+    .sox{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 200px;
+      margin-block: 20px;
+      margin: 100px;
+    }
+
+    .blood{
+      /* margin-left: 800px; */
+      background-color: red;
+      width: 600px;
+      height: 400px;
+      margin: 60px;
+    }
+
+    .calender{
+      margin-top: 70px;
+      padding-top: 70px;
+    
+    }
+
+    .lie{
+      display: flex;
+      justify-content: space-around;
+    }
+
+  
+    .month {
+      padding: 70px 25px;
+      width: 100%;
+      background: red;
+      text-align: center;
+    }
+    
+    .month ul {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .month ul li {
+      color: white;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    
+    .month .prev {
+      float: left;
+      padding-top: 10px;
+    }
+    
+    .month .next {
+      float: right;
+      padding-top: 10px;
+    }
+    
+    .weekdays {
+      margin: 0;
+      padding: 10px 0;
+      background-color: #ddd;
+    }
+    
+    .weekdays li {
+      display: inline-block;
+      width: 13.6%;
+      color: #666;
+      text-align: center;
+    }
+    
+    .days {
+      padding: 10px 0;
+      background: #eee;
+      margin: 0;
+    }
+    
+    .days li {
+      list-style-type: none;
+      display: inline-block;
+      width: 13.6%;
+      text-align: center;
+      margin-bottom: 5px;
+      font-size:12px;
+      color: #777;
+    }
+    
+
+    /*footer */
+
+    .box-5{
+      display: flex;
+      background-color:red;
+      /* margin-top: 120px; */
+      height: 280px;
+      width: 100%;
+      /* margin: 20px;
+      padding: 20px; */
+  }
+  
+  .foot{
+      margin-top: 30px;
+      color: white;
+      font-weight: bold;
+      padding-left: 90px;
+  }
+  
+  .org{
+      margin-top: 30px;
+      color: white;
+      font-weight: bold;
+      padding-left: 130px;
+  }
+  
+  .con{
+      margin-top: 30px;
+      color: white;
+      font-weight: bold;
+      padding-left: 110px;
+  }
+  
+  .sub{
+      margin-top: 30px;
+      color: white;
+      padding-left: 160px;
+  }
+  
+  .subscribe {
+       
+      width: 258px;
+      height: 41px;
+      margin-top: 20px ;
+      color: white;
+      background-color: black;
+      border: none;
+  }
+  
+  .emails{
+      width: 250px;
+      height: 35px;
+  }
+  
+  .condi{
+      color: rgb(7, 7, 103);
+      margin-left: 162px;
+      margin-top: -33px;
+  }
+  
+  .ttt{
+      background-color: rgb(178, 4, 4);
+      height: 97px;
+      width:100%;
+  }
+  
+  .Welcome{
+      display: flex;
+      background-color: cyan;
+  }
+  
+  .just{
+      display:flex;
+      justify-content: space-around;
+      margin-top: 50px;
+  }

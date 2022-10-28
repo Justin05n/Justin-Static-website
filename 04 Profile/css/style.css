@@ -1,0 +1,249 @@
+body  {
+  background-image: url(../images/Rectangle\ 123.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* margin-top: 245px; */
+
+}
+ /* nav stle here */
+ nav{
+  display: flex;
+  justify-content: end;
+  height: 80px;
+  width: 100%;
+  background-color: red;
+}
+
+ul{list-style-type: none;
+  margin: 0; 
+  overflow: hidden;
+   /* background-color: #008000; */
+   display: flex;
+   list-style-type: none;
+   width: 90%;
+   justify-content: space-around;
+   padding: 10px;}
+
+   li a{ display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    margin-right:3px ; 
+    border-radius: 3px;
+    text-decoration: none;
+   }
+
+a:hover {background:rgb(255, 0, 0) ; color: black;}
+
+.active{background: gray; border-radius:5px;
+  width: 100px;
+}
+                   
+.give{
+margin-left:400px;
+position: absolute;
+padding-top:12px ;
+height: 20px;
+width: 20px;
+
+
+}
+
+.shade{
+background-color: rgba(0, 0, 0, 0.74);
+ height:20px;
+ width:100%;
+ display: flex;
+
+}
+
+.gave{
+  width: 200px;
+  height: 40px;
+}
+
+
+    
+.noo{
+  padding-left: 200px;
+  padding-top: 20px;
+  font-size: 40px;
+  margin: 60px;
+}
+
+.luv{
+  display: flex;
+  justify-content:space-around;
+  margin-right: 200px;
+}
+
+
+    .sideplace{
+      background-color: red;
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      /* top: 145px;
+      bottom: 0px;
+      left: 0px; */
+      width: 379px;
+      height: 1000px;
+      margin: 0px;
+
+    
+    }
+
+    .admin{
+      width: 98%;
+      height: 500px;
+      background-color: rgba(255, 255, 255, 0.848);
+      margin: 20px;
+      display: flex;
+      margin-top: 100px;
+      /* background-color: red; */
+    }
+
+    .profile{
+         font-size: xx-large;
+         padding-left: 40px;
+
+    }
+
+    .but{margin-left: 40px;
+    padding: 10px;}
+
+    .pork{
+      display: flex;
+    }
+
+    .write{
+      /* background-color: pink; */
+      margin-left: 200px;
+      width:450px ;
+      /* margin-right: 100px; */
+      margin-top: 150px;
+      /* margin-bottom: 50px; */
+      position: relative;
+      /* background-color: red; */
+
+    }
+
+    .wrote{
+      /* background-color: aqua; */
+      padding-top: 140px;
+    }
+
+    .xxx{
+      margin-left: 30px;
+      display: flexbox;
+      margin-left: 40px;
+      padding-left: 30px;
+    }
+
+    .das{
+      display: flex;
+      background-color:rgba(126, 113, 113, 0.707);
+    }
+
+    .button a{
+      /* margin-left: 70px; */
+      height: 100px;
+    
+      width: 100px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .button{
+      border-radius: 10px;
+      margin-left: 70px;
+      background-color: red;
+    }
+
+    /* .shade{
+      background-color: rgba(0, 0, 0, 0.74);
+       height:65px;
+       width:100%;
+       display: flex;
+       position: fixed;
+    } */
+
+    .back{
+      display: flex;
+    }
+  /* content/ */
+    .sox{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 200px;
+      margin-block: 20px;
+    }
+
+    .blood{
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .lie{
+      display: flex;
+      justify-content: space-around;
+    }
+    /* contant */
+
+
+    .box-5{
+      display: flex;
+      background-color:red;
+      margin-top: 120px;
+      height: 280px;
+      width: 100%;
+    }
+    
+    .foot{
+      margin-top: 30px;
+      color: white;
+      font-weight: bold;
+      padding-left: 90px;
+    }
+    
+    .org{
+      margin-top: 30px;
+      color: white;
+      font-weight: bold;
+      padding-left: 130px;
+    }
+    
+    .con{
+      margin-top: 30px;
+      color: white;
+      font-weight: bold;
+      padding-left: 110px;
+    }
+    
+    .sub{
+      margin-top: 30px;
+      color: white;
+      padding-left: 160px;
+    }
+    
+    .subscribe {
+       
+      width: 258px;
+      height: 41px;
+      margin-top: 20px ;
+      color: white;
+      background-color: black;
+      border: none;
+    }
+    
+    .emails{
+      width: 250px;
+      height: 35px;
+    }
+    
+    .condi{
+      color: rgb(7, 7, 103);
+      margin-left: 162px;
+      margin-top: -33px;
+    }

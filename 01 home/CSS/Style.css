@@ -1,0 +1,282 @@
+nav{
+  display: flex;
+  justify-content: end;
+  height: 80px;
+  width: 100%;
+  background-color: red;
+}
+
+ul{list-style-type: none;
+  margin: 0; 
+  overflow: hidden;
+   /* background-color: #008000; */
+   display: flex;
+   list-style-type: none;
+   width: 90%;
+   justify-content: space-around;
+   padding: 10px;}
+
+li a{ display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  float: left;
+  margin-right:3px ; 
+  border-radius: 3px;
+  text-decoration: none;
+ }
+
+ .gave{
+  width: 220px;
+  height: 34px;
+  /* height: -1000px; */
+  background-color: white;
+}
+
+a:hover {background:rgb(255, 0, 0) ; color: black;}
+
+.active{background: gray; border-radius:5px;
+  width: 100px;
+}
+                   
+.give{
+margin-left:415px;
+position: absolute;
+padding-top:5px ;
+height: 30px;
+width: 30px;
+
+}
+
+.shade{
+background-color: rgba(0, 0, 0, 0.74);
+ height:20px;
+ width:100%;
+ display: flex;
+}
+
+                          /* nav ends here */
+
+                          .popup {
+                            position: absolute;
+                            transform: translate(-50%,-50%);
+                            top:50%;
+                            left: 50%;
+                            width: 50%;
+                            background-color: rgba(255, 0, 0, 0.74);
+                            color: white;
+                          }
+                          
+                          .closebtn {
+                            margin-left: 15px;
+                            color: white;
+                            font-weight: bold;
+                            float: right;
+                            font-size: 22px;
+                            line-height: 20px;
+                            cursor: pointer;
+                            transition: 0.3s;
+                          }
+                          
+                          .closebtn:hover {
+                            color: black;
+                          }
+
+.par{
+  background-color: rgba(182, 182, 182, 0.324);
+  width: 97.5%;
+  height: 360px;
+  display: flex;
+  padding:20px ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-size: 30px;
+  /* flex-direction: row; */
+}
+
+.red{
+  color: red;
+}
+
+.dull{
+  margin-right:100px;
+  /* background-color: purple; */
+  width: 350px;
+}
+
+.no1{
+  margin-right: 50px;
+  width: 1000px;
+  text-align: center;
+}
+
+.donate{
+  color: red;
+  padding: 27px;
+  font-size: larger;
+}
+
+.travel{
+  width: 100%;
+  height:400px;
+  /* background-color:black; */
+  display:flex;
+  position: relative;
+  border-bottom: solid 2px white;
+  justify-content:center ;
+  margin-left: 10px;
+  /* display: inline; */
+  /* padding: 15px; */
+  vertical-align:middle;
+  margin:20px 0px;
+}
+
+.trv1 img{
+  width: 400px;
+  height: 300px;
+  margin: 40px;
+}
+
+.snow{
+  font-size: large;
+  font-weight: bolder;
+}
+
+.sow{
+  font-size: large;
+  font-weight: bolder;
+}
+
+.now{
+  font-size: large;
+  font-weight: bolder;
+}
+
+
+
+.micro{
+  width: 700px;
+  height: 150px;
+
+}
+
+.spot{
+  width: 350px;
+  padding: 20px;
+  margin-right:100px;
+}
+
+.no2{
+ 
+/*  
+  background-color: pink; */
+  width: 1000px;
+  height: 270px;
+  font-size: larger;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.blood{
+  padding-left: 550px;
+  color: red;
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 50px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color:red;
+  row-gap: 60px;
+  /* margin: 100px; */
+width: 1200px;
+padding: 100px;
+border-radius: 30px;
+}
+
+.www{
+  width: 80px;
+  height: 80px;
+}
+
+.do-it{
+  background-color:  rgba(182, 182, 182, 0.324);
+  margin-top: 30px;
+  width: 99.9%;
+  height: 340px;
+  display: flex;
+
+  /* padding:20px ; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-size: 20px;
+}
+
+.mmm{
+  width: 100%;
+  height: 300px;
+  background-color:rgba(182, 182, 182, 0.324);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-size: 20px;
+}
+   
+
+                        /* footer */
+.box-5{
+  display: flex;
+  background-color: red;
+  margin-top: 50px;
+  height: 280px;
+  width: 100%;
+}
+
+.foot{
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+  padding-left: 90px;
+}
+
+.org{
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+  padding-left: 130px;
+}
+
+.con{
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+  padding-left: 110px;
+}
+
+.sub{
+  margin-top: 30px;
+  color: white;
+  padding-left: 160px;
+}
+
+.subscribe {
+   
+  width: 258px;
+  height: 41px;
+  margin-top: 20px ;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.emails{
+  width: 250px;
+  height: 35px;
+}
+
+.condi{
+  color: rgb(7, 7, 103);
+  margin-left: 162px;
+  margin-top: -33px;
+}
